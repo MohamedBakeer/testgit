@@ -1,0 +1,4 @@
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/leabozor/public_html/public/prj
+    - /bin/cp -r * $DEPLOYPATH
